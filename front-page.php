@@ -9,14 +9,14 @@
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>custom-assets/css/my.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/custom-assets/css/my.css">
 	<title>Main</title>
 </head>
 <body>
 <div class="hidden"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="264.2 371 20.3 18.8" id="basket" xmlns="http://www.w3.org/2000/svg"><path class="st0" d="M283.7 378.2h-3.2l-3.4-6.8c-.2-.4-.6-.5-1-.3s-.5.6-.3 1l3.1 6.1h-9.1l3.1-6.1c.2-.4 0-.8-.3-1-.4-.2-.8 0-1 .3l-3.4 6.8H265c-.4 0-.8.3-.8.8 0 .4.3.8.8.8h.2l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.7 5.8h12.7l1.7-5.8c.4 0 .7-.3.7-.7 0-.2-.1-.5-.3-.6l.9-3h.2c.4 0 .8-.3.8-.8-.4-.5-.7-.8-1.2-.8zm-4.1 10.1h-10.4L268 384h12.9l-1.3 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></symbol></svg></div>
-<div class="main-header" style="background-image: url('assets/i/bludelego_home_new.jpg')">
+<div class="main-header" style="background-image: url('<?php echo get_template_directory_uri();?>/custom-assets/i/bludelego_home_new.jpg')">
 	<div class="main-header__top">
-		<div class="main-header__top-wrap"><a class="btn-emergency" href="https://bludelego.it/emergenza-sanitaria/" aria-hidden="false">Emergenza Sanitaria</a><a class="logo" href=""><img src="assets/i/bludelego-white-.png" alt="logo"></a>
+		<div class="main-header__top-wrap"><a class="btn-emergency" href="https://bludelego.it/emergenza-sanitaria/" aria-hidden="false">Emergenza Sanitaria</a><a class="logo" href=""><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/bludelego-white-.png" alt="logo"></a>
 			<div class="show-menu" id="js-show-menu"><span>Menu</span>
 				<div class="sandwitch-wrap" id="js-sandwitch-wrap">
 					<div class="sandwitch">
@@ -63,7 +63,7 @@
 			<div class="main-header__center__wrap">
 				<h2 class="main-header__subtitle">Facciamo decollare <br> la tua azienda</h2>
 				<h1 class="main-header__title">Con i servizi di outsourcing Bludelego <br> <strong>tagli i costi e aumenti la produttività</strong></h1><a class="download-button" href="#"><span>Scarica la brochure</span>
-					<div class="download-button__image"><img src="assets/i/download.png" alt=""></div></a>
+					<div class="download-button__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/download.png" alt=""></div></a>
 			</div>
 		</div>
 	</div>
@@ -72,7 +72,7 @@
 	<h2 class="we-can__title">Con Bludelego puoi:</h2>
 	<div class="container">
 		<div class="we-can__wrap">
-			<div class="we-can__item we-can__item--colored">Gestire ogni attività impiegatizia che richieda l'uso del terminale e/o telefono, senza limiti di mercato o tipologia professionale.</div><img class="we-can__image" src="assets/i/we-can.jpg" alt="we can image">
+			<div class="we-can__item we-can__item--colored">Gestire ogni attività impiegatizia che richieda l'uso del terminale e/o telefono, senza limiti di mercato o tipologia professionale.</div><img class="we-can__image" src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/we-can.jpg" alt="we can image">
 			<div class="we-can__block">
 				<div class="we-can__item">Avvalerti di personale altamente qualificato solo quando ne hai bisogno</div>
 				<div class="we-can__item">Focalizzare la tua azienda sul core business</div>
@@ -111,32 +111,32 @@
 	<div class="container">
 		<div class="solutions__wrap">
 			<div class="solutions__item">
-				<div class="solutions__image"><img src="assets/i/backoffice-e-order-entry.jpg"></div>
+				<div class="solutions__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/backoffice-e-order-entry.jpg"></div>
 				<h3 class="solutions__item-title title">Backoffice e Order Entry</h3>
 				<p>Svolgiamo con personale altamente qualificato tutte le operazioni <strong>di inserimento ed elaborazione dati</strong> (gestione ordini, elaborazione documenti fiscali, inserimento contratti, ecc.) sia su sistemi proprietari che del cliente.</p><a class="btn" href="#">Scopri di più</a>
 			</div>
 			<div class="solutions__item">
-				<div class="solutions__image"><img src="assets/i/web-e-digital.jpg"></div>
+				<div class="solutions__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/web-e-digital.jpg"></div>
 				<h3 class="solutions__item-title title">Web e Digital</h3>
 				<p>Il Bludelego Digital Team sviluppa <strong>soluzioni digitali su misura</strong> per la tua azienda, sia nel settore <strong>web e social</strong> (siti web, ecommerce, social media, web e social marketing) sia nella <strong>progettazione e sviluppo di applicazioni</strong> (app per smartphone, CRM, Web application).</p><a class="btn" href="#">Scopri di più</a>
 			</div>
 			<div class="solutions__item">
-				<div class="solutions__image"><img src="assets/i/bluperizie.jpg"></div>
+				<div class="solutions__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/bluperizie.jpg"></div>
 				<h3 class="solutions__item-title title">BluPerizie</h3>
 				<p>BluPerizie è la soluzione di outsourcing che ti permette di <strong>ridurre i costi di lavorazione</strong> delle perizie assicurative e gestire i picchi di lavoro. Con BluPerizie deleghi le attività ripetitive a basso valore aggiunto, riducendo costi e tempi di lavorazione e potendo lavorare un maggior numero di perizie.</p><a class="btn" href="#">Scopri di più</a>
 			</div>
 			<div class="solutions__item">
-				<div class="solutions__image"><img src="assets/i/easy-hr.jpg"></div>
+				<div class="solutions__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/easy-hr.jpg"></div>
 				<h3 class="solutions__item-title title">Easy HR</h3>
 				<p>Easy Hr è <strong>la soluzione digitale che semplifica la gestione delle risorse umane</strong> nelle aziende tramite una app per cellulari (utilizzata dai dipendenti) ed una <strong>piattaforma web</strong> con funzionalità avanzate di gestione e reportistica.</p><a class="btn" href="#">Scopri di più</a>
 			</div>
 			<div class="solutions__item">
-				<div class="solutions__image"><img src="assets/i/gestione-documentale.jpg"></div>
+				<div class="solutions__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/gestione-documentale.jpg"></div>
 				<h3 class="solutions__item-title title">Gestione documentale</h3>
 				<p>Ci occupiamo della <strong>digitalizzazione dei documenti, dematerializzazione del cartaceo, e archiviazione elettronica</strong> con soluzioni scalabili, efficaci e tecnologicamente avanzate che ti garantiscono la massima sicurezza e riservatezza dei dati.</p><a class="btn" href="#">Scopri di più</a>
 			</div>
 			<div class="solutions__item">
-				<div class="solutions__image"><img src="assets/i/frontoffice-e-call-center.jpg"></div>
+				<div class="solutions__image"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/frontoffice-e-call-center.jpg"></div>
 				<h3 class="solutions__item-title title">Frontoffice e Call Center</h3>
 				<p>Le soluzioni Bludelego per la gestione dei contatti con i clienti assicurano sempre risposte rapide, efficaci e professionali: customer care e satisfaction, segreteria, sondaggi, welcome call, gestione numeri verdi in qualsiasi orario e 365 giorni all’anno!</p><a class="btn" href="#">Scopri di più</a>
 			</div>
@@ -150,7 +150,7 @@
 			<div class="success__item">
 				<div class="success__img-wrap">
 					<div class="success__icon">1</div>
-					<div class="success__img"><img src="assets/i/analisi.jpg"></div>
+					<div class="success__img"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/analisi.jpg"></div>
 				</div>
 				<h3 class="success__item-title title">Analisi</h3>
 				<div class="success__text">Un nostro professionista raccoglie le tue esigenze e concorda con te il piano delle attività</div>
@@ -158,7 +158,7 @@
 			<div class="success__item">
 				<div class="success__img-wrap">
 					<div class="success__icon">2</div>
-					<div class="success__img"><img src="assets/i/preparazione.jpg"></div>
+					<div class="success__img"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/preparazione.jpg"></div>
 				</div>
 				<h3 class="success__item-title title">Preparazione
 					<div class="success__text">Selezioniamo e formiamo le risorse professionali più adatte alle tue esigenze e predisponiamo le infrastrutture tecnologiche e di comunicazione</div>
@@ -167,7 +167,7 @@
 			<div class="success__item">
 				<div class="success__img-wrap">
 					<div class="success__icon">3</div>
-					<div class="success__img"><img src="assets/i/svolgimento.jpg"></div>
+					<div class="success__img"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/svolgimento.jpg"></div>
 				</div>
 				<h3 class="success__item-title title">Svolgimento
 					<div class="success__text">Svolgiamo le attività previste dal progetto in stretto raccordo con il tuo personale, rendicontandoti giornalmente le ore svolte e i risultati raggiunti</div>
@@ -176,7 +176,7 @@
 			<div class="success__item">
 				<div class="success__img-wrap">
 					<div class="success__icon">4</div>
-					<div class="success__img"><img src="assets/i/flessibilita.jpg"></div>
+					<div class="success__img"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/flessibilita.jpg"></div>
 				</div>
 				<h3 class="success__item-title title">Flessibilità
 					<div class="success__text">Contattando il tuo referente, puoi aumentare o diminuire le ore di lavoro, cambiare gli orari e le attività, attivare l’opzione “soddisfatto o rimborsato” o richiedere qualsiasi altra variazione</div>
@@ -205,7 +205,7 @@
 			<input type="submit" value="Invia">
 		</div>
 		<div class="main-footer__socials">
-			<div class="main-footer__socials-item main-footer__socials-item--center"><span>Seguici sui nostri socia</span><a href="#"><img src="assets/i/facebook.png" alt="facebook"></a><a href="#"><img src="assets/i/linkedin.png" alt="linkedin"></a><a href="#"><img src="assets/i/youtube.png" alt="youtube"></a></div>
+			<div class="main-footer__socials-item main-footer__socials-item--center"><span>Seguici sui nostri socia</span><a href="#"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/facebook.png" alt="facebook"></a><a href="#"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/linkedin.png" alt="linkedin"></a><a href="#"><img src="<?php echo get_template_directory_uri();?>/custom-assets/i/youtube.png" alt="youtube"></a></div>
 			<div class="main-footer__socials-item"><a href="#">+39 340 665 4100</a></div>
 			<div class="main-footer__socials-item"><a href="#">info@bludelego.it</a></div>
 		</div>
@@ -241,8 +241,7 @@
 <script src="assets/libs/html5shiv/respond.min.js"></script>
 <!--<![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/custom-assets/js/main.js"></script>
 </body>
 </html>
 

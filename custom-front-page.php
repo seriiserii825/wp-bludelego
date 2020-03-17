@@ -10,9 +10,32 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/custom-assets/css/my.css">
-    <title>Main</title>
+    <title>Bludelego Outsourcing Partner - Facciamo decollare la tua azienda!</title>
+    <meta name="description" content="Con i servizi di outsourcing Bludelego tagli i costi ed aumenti la produttività: soluzioni di Front Office, Customer care, Back Office, Web e Digital per la tua impresa"/>
+    <link rel="canonical" href="https://bludelego.it/" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bludelego - Outsourcing partner" />
+    <meta property="og:description" content="Con i servizi di outsourcing Bludelego tagli i costi ed aumenti la produttività" />
+    <meta property="og:url" content="https://bludelego.it/" />
+    <meta property="og:site_name" content="Bludelego: Outsourcing e Offshoring - Your outsourcing Partner" />
+    <meta property="og:image" content="https://bludelego.it/wp-content/uploads/2018/10/home.png" />
+    <meta property="og:image:secure_url" content="https://bludelego.it/wp-content/uploads/2018/10/home.png" />
+    <meta property="og:image:width" content="1450" />
+    <meta property="og:image:height" content="750" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Con i servizi di outsourcing Bludelego tagli i costi ed aumenti la produttività: soluzioni di Front Office, Customer care, Back Office, Web e Digital per la tua impresa" />
+    <meta name="twitter:title" content="Bludelego Outsourcing Partner - Facciamo decollare la tua azienda!" />
+    <meta name="twitter:image" content="https://bludelego.it/wp-content/uploads/2018/10/home.png" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KRBSQ6W');</script>
+    <!-- End Google Tag Manager -->
 </head>
-<body>
+<body <?php echo body_class(); ?>>
 <div class="hidden">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <symbol viewBox="264.2 371 20.3 18.8" id="basket" xmlns="http://www.w3.org/2000/svg">
@@ -78,14 +101,16 @@
                     </li>
                     <li>
                         <ul class="languages">
-                            <li>
-                                <a href="#">Italiano</a>
-                            </li>
-                            <li>
-                                <a href="#">English</a>
-                            </li>
-                            <li>
-                                <a href="#">Romana</a>
+                            <li class="languages__first">
+                                <a class="languages__show" href="">Italiano</a>
+                                <ul class="languages__submenu">
+                                    <li>
+                                        <a href="https://bludelego.it/?lang=en">English</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bludelego.it/?lang=ro">Română</a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </li>
@@ -498,13 +523,13 @@
             <div class="main-footer__bottom-wrap">
                 <ul class="main-footer__languages">
                     <li>
-                        <a href="#">Italiano</a>
+                        <a href="">Italiano</a>
                     </li>
                     <li>
-                        <a href="#">English</a>
+                        <a href="https://bludelego.it/?lang=en">English</a>
                     </li>
                     <li>
-                        <a href="#">Română</a>
+                        <a href="https://bludelego.it/?lang=ro">Română</a>
                     </li>
                 </ul>
                 <ul class="main-footer__menu">
@@ -568,6 +593,7 @@
 <!--<![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/custom-assets/libs/jquery.validate.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/custom-assets/libs/jquery.ihavecookies.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/custom-assets/js/main.js"></script>
 </body>
 </html>

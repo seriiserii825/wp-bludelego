@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * Template name: Home page en
+	 * Template name: Home English
 	 */
 ?>
 
@@ -44,19 +44,19 @@
             <div class="main-menu__wrap" id="js-main-menu__wrap">
                 <ul class="main-menu">
                     <li>
-                        <a href="https://bludelego.it/soluzioni/">Solutions</a>
+                        <a href="https://bludelego.it/soluzioni/?lang=en">Solutions</a>
                     </li>
                     <li>
                         <a href="https://bludelego.it/soluzioni/web-digital-it/portfolio/">Portfolio</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/chi-siamo/">Chi Siamo</a>
+                        <a href="https://bludelego.it/chi-siamo/?lang=en">About us</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/clienti/">Clienti</a>
+                        <a href="https://bludelego.it/clienti/?lang=en">Our clients</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/contatti/">Contatti</a>
+                        <a href="https://bludelego.it/contatti/?lang=en">Contact</a>
                     </li>
                 </ul>
                 <ul class="main-menu__buttons">
@@ -73,7 +73,7 @@
                                           d="M 10 10 C 8.160156 10 6.667969 11.492188 6.667969 13.332031 C 6.667969 15.175781 8.160156 16.667969 10 16.667969 C 11.839844 16.667969 13.332031 15.175781 13.332031 13.332031 C 13.332031 11.492188 11.839844 10 10 10 Z M 11.332031 13.667969 C 11.238281 13.792969 11.125 13.90625 11 14 L 11 15 C 11 15.550781 10.550781 16 10 16 C 9.449219 16 9 15.550781 9 15 L 9 14 C 8.261719 13.449219 8.113281 12.402344 8.667969 11.667969 C 9.21875 10.929688 10.261719 10.78125 11 11.332031 C 11.738281 11.886719 11.886719 12.929688 11.332031 13.667969 Z M 11.332031 13.667969 "/>
                                 </g>
                             </svg>
-                            <span>Area Riservata</span>
+                            <span>Private area</span>
                         </a>
                     </li>
                     <li>
@@ -107,9 +107,9 @@
     <div class="main-header__center">
         <div class="container">
             <div class="main-header__center__wrap">
-                <h2 class="main-header__subtitle">Facciamo decollare <br> la tua azienda</h2>
-                <h1 class="main-header__title">Con i servizi di outsourcing Bludelego <br>
-                    <strong>tagli i costi e aumenti la produttività</strong></h1>
+                <h2 class="main-header__subtitle">Let your company<br> take off</h2>
+                <h1 class="main-header__title">Our services cut your company’s<br>
+                    <strong>costs and increase your productivity</strong></h1>
                 <a target="_blank" class="download-button"
                    href="<?php echo get_template_directory_uri(); ?>/custom-assets/files/bludelego-presentazione_web.pdf">
                     <span>Scarica la brochure</span>
@@ -122,16 +122,10 @@
     </div>
 </div>
 <section class="we-can">
-    <h2 class="we-can__title">Con Bludelego puoi:</h2>
+    <h2 class="we-can__title">With Bludelego you can:</h2>
     <div class="container">
         <div class="we-can__wrap">
-            <div class="we-can__item we-can__item--colored">Gestire ogni attività impiegatizia che richieda l'uso del terminale e/o telefono, senza limiti di mercato o tipologia professionale.</div>
-            <img class="we-can__image" src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/we-can.jpg"
-                 alt="we can image">
-            <div class="we-can__block">
-                <div class="we-can__item">Avvalerti di personale altamente qualificato solo quando ne hai bisogno</div>
-                <div class="we-can__item">Focalizzare la tua azienda sul core business</div>
-            </div>
+            <img class="we-can__image" src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/we-can-eng.jpg" alt="we can image">
         </div>
     </div>
 </section>
@@ -220,8 +214,8 @@
                         </g>
                     </g>
                 </svg>
-                <h3 class="features__title">Flessibile</h3>
-                <div class="features__text">Gestione in tempo reale dei picchi di lavoro e delle stagionalità</div>
+                <h3 class="features__title">Flexible</h3>
+                <div class="features__text">Real time management of workloads and seasonality</div>
             </div>
             <div class="features__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150"
@@ -245,8 +239,8 @@
                         </g>
                     </g>
                 </svg>
-                <h3 class="features__title">Affidabile</h3>
-                <div class="features__text">Operatività garantita tutti i giorni, senza interruzioni per ferie, malattie e permessi</div>
+                <h3 class="features__title">Reliable</h3>
+                <div class="features__text">Efficient operation  guaranteed every day, without interruption for holidays, sickness and permits</div>
             </div>
             <div class="features__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150"
@@ -282,8 +276,8 @@
                         </g>
                     </g>
                 </svg>
-                <h3 class="features__title">Semplice</h3>
-                <div class="features__text">Avrai sempre un unico referente per tutte le tue attività</div>
+                <h3 class="features__title">Simple</h3>
+                <div class="features__text">We provide a single contact point for all your activities</div>
             </div>
             <div class="features__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150"
@@ -316,80 +310,49 @@
                         </g>
                     </g>
                 </svg>
-                <h3 class="features__title">Sotto Controllo</h3>
-                <div class="features__text">Puoi monitorare in tempo reale le performance e i risultati</div>
+                <h3 class="features__title">Under control</h3>
+                <div class="features__text">Real time monitoring of performance and results</div>
             </div>
         </div>
     </div>
 </section>
 <section class="solutions">
-    <h2 class="section__title">Alcune delle nostre soluzioni per la tua azienda</h2>
+    <h2 class="section__title">Solutions for your business</h2>
     <div class="container">
         <div class="solutions__wrap">
             <div class="solutions__item">
                 <div class="solutions__image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/frontoffice-e-call-center.jpg">
+                </div>
+                <h3 class="solutions__item-title title">Frontoffice & Call Center</h3>
+                <p>Bludelego solutions for managing contacts with customers always ensure fast, effective and professional responses: customer care and satisfaction, secretary service, surveys, welcome calls, management of toll-free numbers at any time and 365 days a year!</p>
+                <a class="btn" href="https://bludelego.it/soluzioni/frontoffice/">Learn more</a>
+            </div>
+            <div class="solutions__item">
+                <div class="solutions__image">
                     <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/backoffice-e-order-entry.jpg">
                 </div>
-                <h3 class="solutions__item-title title">Backoffice e Order Entry</h3>
-                <p>Svolgiamo con personale altamente qualificato tutte le operazioni
-                    <strong>di inserimento ed elaborazione dati</strong> (gestione ordini, elaborazione documenti fiscali, inserimento contratti, ecc.) sia su sistemi proprietari che del cliente.
-                </p>
-                <a class="btn" href="https://bludelego.it/soluzioni/backoffice/">Scopri di più</a>
+                <h3 class="solutions__item-title title">Backoffice and Order Entry</h3>
+                <p>Our highly qualified personnel carries out all data entry and processing operations (order processing, tax documents processing, order entry, etc.) using our own systems as well as customer systems.</p>
+                <a class="btn" href="https://bludelego.it/soluzioni/backoffice/">Learn more</a>
             </div>
             <div class="solutions__item">
                 <div class="solutions__image">
                     <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/web-e-digital.jpg">
                 </div>
-                <h3 class="solutions__item-title title">Web e Digital</h3>
-                <p>Il Bludelego Digital Team sviluppa
-                    <strong>soluzioni digitali su misura</strong> per la tua azienda, sia nel settore
-                    <strong>web e social</strong> (siti web, ecommerce, social media, web e social marketing) sia nella
-                    <strong>progettazione e sviluppo di applicazioni</strong> (app per smartphone, CRM, Web application).
-                </p>
-                <a class="btn" href="https://bludelego.it/soluzioni/web-digital-it/">Scopri di più</a>
-            </div>
-            <div class="solutions__item">
-                <div class="solutions__image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/bluperizie.jpg">
-                </div>
-                <h3 class="solutions__item-title title">BluPerizie</h3>
-                <p>BluPerizie è la soluzione di outsourcing che ti permette di
-                    <strong>ridurre i costi di lavorazione</strong> delle perizie assicurative e gestire i picchi di lavoro. Con BluPerizie deleghi le attività ripetitive a basso valore aggiunto, riducendo costi e tempi di lavorazione e potendo lavorare un maggior numero di perizie.
-                </p>
-                <a class="btn" href="https://bludelego.it/soluzioni/gestione-documentale">Scopri di più</a>
-            </div>
-            <div class="solutions__item">
-                <div class="solutions__image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/easy-hr.jpg">
-                </div>
-                <h3 class="solutions__item-title title">Easy HR</h3>
-                <p>Easy Hr è
-                    <strong>la soluzione digitale che semplifica la gestione delle risorse umane</strong> nelle aziende tramite una app per cellulari (utilizzata dai dipendenti) ed una
-                    <strong>piattaforma web</strong> con funzionalità avanzate di gestione e reportistica.</p>
-                <a
-                        class="btn"
-                        href="https://bludelego.it/soluzioni/easy-hr-app-gestione-risorse-umane/">Scopri di più
-                </a>
+                <h3 class="solutions__item-title title">Web & Digital</h3>
+                <p>The Bludelego Digital Team develops digital solutions tailored to your company, both in the web and social sectors (websites, ecommerce, social media, web and social marketing) and in the design and development of applications (apps for smartphones, CRM, Web applications). </p>
+                <a class="btn" href="https://bludelego.it/soluzioni/web-digital-it/">Learn more</a>
             </div>
             <div class="solutions__item">
                 <div class="solutions__image">
                     <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/gestione-documentale.jpg">
                 </div>
-                <h3 class="solutions__item-title title">Gestione documentale</h3>
-                <p>Ci occupiamo della
-                    <strong>digitalizzazione dei documenti, dematerializzazione del cartaceo, e archiviazione elettronica</strong> con soluzioni scalabili, efficaci e tecnologicamente avanzate che ti garantiscono la massima sicurezza e riservatezza dei dati.
-                </p>
+                <h3 class="solutions__item-title title">Document management</h3>
+                <p>We deal with digitization of documents, paper dematerialization and electronic archiving with scalable, effective and technologically advanced solutions that guarantee maximum security and confidentiality of data.</p>
                 <a class="btn"
-                   href="https://bludelego.it/soluzioni/bluperizie-outsourcing-perizie-assicurative/">Scopri di più
+                   href="https://bludelego.it/soluzioni/bluperizie-outsourcing-perizie-assicurative/">Learn more
                 </a>
-            </div>
-            <div class="solutions__item">
-                <div class="solutions__image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/frontoffice-e-call-center.jpg">
-                </div>
-                <h3 class="solutions__item-title title">Frontoffice e Call Center</h3>
-                <p>Le soluzioni Bludelego per la gestione dei contatti con i clienti assicurano sempre risposte rapide, efficaci e professionali: customer care e satisfaction, segreteria, sondaggi, welcome call, gestione numeri verdi in qualsiasi orario e 365 giorni all’anno!</p>
-                <a class="btn" href="https://bludelego.it/soluzioni/frontoffice/">Scopri di più</a>
             </div>
         </div>
     </div>

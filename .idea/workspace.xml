@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e36f8d-7b92-4bfd-9727-5d90aaa8be49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/custom-assets/files/bludelego-presentazione_web.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-assets/i/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-assets/libs/jquery.ihavecookies.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-assets/libs/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-assets/i/we-can-eng.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-assets/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom-assets/css/my.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/custom-assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/bootstrap/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/google-map/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/jquery-easy-scroll/jquery.easeScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/stellar.js/jquery.stellar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/vuejs/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/wow/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/wow/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/libs/wow/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-front-page-en.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom-front-page-en.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom-front-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +41,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../wp-visitrosalina" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +49,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,7 +71,7 @@
       <workItem from="1584437862051" duration="1552000" />
       <workItem from="1584439595016" duration="79000" />
       <workItem from="1584439722549" duration="100000" />
-      <workItem from="1584439900930" duration="728000" />
+      <workItem from="1584439900930" duration="5580000" />
     </task>
     <servers />
   </component>

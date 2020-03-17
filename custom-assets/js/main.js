@@ -109,6 +109,25 @@ $(function () {
     }
   });
 
+  $('body.page-template-custom-front-page').ihavecookies({
+  message: "Questo sito utilizza cookie, anche di terze parti, per garantirti una migliore esperienza di navigazione.\nChiudendo questo banner, scorrendo questa pagina o cliccando qualunque suo elemento acconsenti all'uso\ndel cookie. <",
+    link:"/privacy/",
+    moreInfoLabel: 'Maggiori informazioni',
+    acceptBtnLabel: 'Ok',
+    delay: 2000,
+    expires: 30// 30 days
+  });
+
+
+  setTimeout(function () {
+    let privacyLink = $('#gdpr-cookie-message').find('a');
+    privacyLink.attr('target', '_blank')
+  },3000);
+
+  setTimeout(function () {
+    $('#gdpr-cookie-advanced').remove();
+  },2000);
+
 });
 
 

@@ -625,6 +625,8 @@ a {
   right: 30px;
   display: none;
   align-items: center;
+  text-transform: uppercase;
+	color: white;
 }
 
 @media screen and (max-width: 1260px) {
@@ -1454,4 +1456,84 @@ input[type="submit"]:hover {
   color: #ABE5FF;
 }
 
-/*# sourceMappingURL=my.css.map */
+.riservata-popup {
+  position: absolute;
+  top: -300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  padding: 28px;
+  text-align: center;
+  border: 1px none #000000;
+  box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 );
+  background-color: rgba( 255, 255, 255, 1.00 );
+  border-radius: 15px;
+  transition: all .6s;
+  z-index: 10000;
+}
+.riservata-popup.active {
+	top: 50%;
+}
+
+.riservata-popup__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+  text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+  background-color: rgba( 49, 91, 124, 1.00 );
+}
+
+.riservata-popup__title {
+  margin-bottom: 30px;
+}
+.riservata-popup__title h3 {
+  font-size: 34px;
+  font-weight: normal;
+}
+.riservata-popup__title img {
+  width: 60px;
+}
+.riservata-popup__item {
+  display: block;
+  padding: 30px 60px;
+  text-align: center;
+  transition: all .3s;
+}
+.riservata-popup__item:hover {
+  background: #615e5e2b;
+}
+.riservata-popup__item img {
+  width: 250px;
+}
+@media screen and (max-width: 768px) {
+  .riservata-popup__item {
+	    padding: 30px;
+	}
+}
+@media screen and (max-width: 576px) {
+  .riservata-popup {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main-header__top {
+    padding-bottom: 40px;
+  }
+	.logo {
+    position: relative;
+    top: 10px;
+    width: 150px;
+  }
+}
+
+

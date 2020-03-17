@@ -28,14 +28,15 @@
 			</div>
 			<div class="main-menu__wrap" id="js-main-menu__wrap">
 				<ul class="main-menu">
-					<li><a href="https://bludelego.it/">Soluzioni</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Chi Siamo</a></li>
-					<li><a href="">Clienti</a></li>
-					<li><a href="">Contatti</a></li>
+					<li><a href="https://bludelego.it/soluzioni/">Soluzioni</a></li>
+					<li><a href="https://bludelego.it/soluzioni/web-digital-it/portfolio/">Portfolio</a></li>
+					<li><a href="https://bludelego.it/chi-siamo/">Chi Siamo</a></li>
+					<li><a href="https://bludelego.it/clienti/">Clienti</a></li>
+					<li><a href="https://bludelego.it/contatti/">Contatti</a></li>
 				</ul>
 				<ul class="main-menu__buttons">
-					<li><a class="main-header__button" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20pt" height="20pt" viewBox="0 0 20 20" version="1.1">
+					<li>
+                        <a id="js-show-riservata-popup" class="main-header__button" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20pt" height="20pt" viewBox="0 0 20 20" version="1.1">
 								<g id="surface1">
 									<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 10.859375 12.160156 C 10.679688 11.855469 10.355469 11.667969 10 11.667969 C 9.449219 11.667969 9.003906 12.117188 9.003906 12.671875 C 9.007812 13.023438 9.195312 13.351562 9.5 13.53125 L 9.667969 13.625 L 9.667969 15 C 9.667969 15.183594 9.816406 15.332031 10 15.332031 C 10.183594 15.332031 10.332031 15.183594 10.332031 15 L 10.332031 13.625 L 10.5 13.53125 C 10.976562 13.25 11.136719 12.636719 10.859375 12.160156 Z M 10.859375 12.160156 "/>
 									<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 15.332031 9.332031 C 14.953125 8.828125 14.503906 8.378906 14 8 L 14 4 C 14 1.789062 12.210938 0 10 0 C 7.789062 0 6 1.789062 6 4 L 6 8 C 3.054688 10.207031 2.457031 14.386719 4.667969 17.332031 C 6.875 20.277344 11.054688 20.875 14 18.667969 C 16.945312 16.457031 17.542969 12.277344 15.332031 9.332031 Z M 8 4 C 8 2.894531 8.894531 2 10 2 C 11.105469 2 12 2.894531 12 4 L 12 6.972656 L 11.90625 6.945312 L 11.78125 6.914062 C 11.625 6.867188 11.464844 6.832031 11.308594 6.800781 L 11.203125 6.78125 C 11.019531 6.746094 10.832031 6.71875 10.648438 6.703125 L 10.617188 6.703125 C 10.417969 6.667969 10.210938 6.667969 10 6.667969 C 9.789062 6.667969 9.585938 6.667969 9.378906 6.695312 L 9.332031 6.695312 C 9.148438 6.714844 8.964844 6.738281 8.785156 6.773438 L 8.675781 6.792969 C 8.519531 6.824219 8.363281 6.859375 8.210938 6.902344 L 8.078125 6.941406 L 7.988281 6.964844 Z M 10 17.332031 C 7.789062 17.332031 6 15.542969 6 13.332031 C 6 11.125 7.789062 9.332031 10 9.332031 C 12.210938 9.332031 14 11.125 14 13.332031 C 14 15.542969 12.210938 17.332031 10 17.332031 Z M 10 17.332031 "/>
@@ -234,6 +235,21 @@
 			</div>
 		</div>
 	</div>
+    <div class="riservata-popup" id="js-riservata-popup">
+        <a id="js-riservata-popup__close" class="riservata-popup__close" href="#">X</a>
+        <div class="riservata-popup__content">
+            <div class="riservata-popup__title">
+                <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/lock.png" alt="">
+                <h3>AREA RISERVATA</h3>
+            </div>
+            <a class="riservata-popup__item" href="http://blupoint.bludelego.it/">
+                <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/bluepoint.png" alt="">
+            </a>
+            <a class="riservata-popup__item" href="http://wt.blupoint.ml/login">
+                <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/worktime.png" alt="">
+            </a>
+        </div>
+    </div>
 </footer><!--[if lt IE 9]>
 <script src="assets/libs/html5shiv/es5-shim.min.js"></script>
 <script src="assets/libs/html5shiv/html5shiv.min.js"></script>

@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * Template name: Home page
+	 * Template name: Home page en
 	 */
 ?>
 
@@ -44,7 +44,7 @@
             <div class="main-menu__wrap" id="js-main-menu__wrap">
                 <ul class="main-menu">
                     <li>
-                        <a href="https://bludelego.it/soluzioni/">Soluzioni</a>
+                        <a href="https://bludelego.it/soluzioni/">Solutions</a>
                     </li>
                     <li>
                         <a href="https://bludelego.it/soluzioni/web-digital-it/portfolio/">Portfolio</a>

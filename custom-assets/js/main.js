@@ -40,6 +40,75 @@ $(function () {
   };
   showRiservataPopup();
 
+  let mail = function () {
+
+    if ($('#js-form').length > 0) {
+
+      $('#js-form').validate({
+        rules: {
+          email: {
+            required: true,
+            email: true
+          },
+          name: {
+            required: true,
+          },
+          phone: {
+            required: true,
+          },
+          messaggio: {
+            required: true,
+          },
+          check: {
+            required: true
+          }
+        },
+        messages: {
+          email: {
+            required: "Il campo è obbligatorio",
+            email: "Inserisci il campo email"
+          },
+          name: {
+            required: "Il campo è obbligatorio",
+          },
+          phone: {
+            required: "Il campo è obbligatorio",
+          },
+          messaggio: {
+            required: "Il campo è obbligatorio",
+          },
+          check: {
+            required: "Il campo è obbligatorio"
+          }
+        },
+        submitHandler: function (form) {
+          return false;
+        }
+      });
+    }
+  };
+  mail();
+
+  $('.form-submit-btn').click(function () {
+    if ($("#js-form").valid()) {
+      let nome = $('input[name="name"]').val();
+      let email = $('input[name="email"]').val();
+      let oggetto = $('input[name="oggetto"]').val();
+      let messaggio = $('textarea[name="messaggio"]').val();
+
+      $.post("https://bludelego.it/mail.php", {
+        name: nome,
+        email: email,
+        oggetto: oggetto,
+        messaggio: messaggio,
+      })
+
+      .done(function (data) {
+        $('#submit-ajax').empty().html('Message was sent');
+      });
+    }
+  });
+
 });
 
 

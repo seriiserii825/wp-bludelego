@@ -1315,20 +1315,7 @@ a {
   margin: 30px auto 0;
 }
 
-.privacy {
-  font-size: 16px;
-  color: #ABE5FF;
-}
 
-.privacy a {
-  font-size: 16px;
-  color: #3cb1fe;
-}
-
-.privacy a:hover {
-  text-decoration: none;
-  color: white;
-}
 
 input[type="submit"] {
   padding: 14px 30px;
@@ -1535,5 +1522,82 @@ input[type="submit"]:hover {
     width: 150px;
   }
 }
+label.error {
+  color: red;
+}
 
 
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+
+.checkbox + label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 30px;
+  vertical-align: middle;
+  text-transform: none;
+}
+
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 0;
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: #888;
+  transition: .2s;
+}
+
+@media screen and (max-width: 830px) {
+  .checkbox + label:before {
+    top: 7px;
+  }
+}
+
+.checkbox + label:after {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 4px;
+  display: block;
+  width: 13px;
+  height: 13px;
+  transition: .2s;
+  background: url("../i/check.svg") no-repeat center;
+  background-size: cover;
+  opacity: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .checkbox + label:after {
+    top: 7px;
+  }
+}
+
+.checkbox:checked + label:after {
+  opacity: 1;
+}
+
+.privacy {
+  color: white;
+}
+
+.privacy label#check-error {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.privacy a {
+  color: #3cb1fe;
+  text-decoration: none;
+}

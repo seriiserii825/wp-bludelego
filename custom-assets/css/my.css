@@ -1645,3 +1645,12 @@ label.error {
   border: none;
   cursor: pointer;
 }
+#gdpr-cookie-message p,
+#gdpr-cookie-types,
+#gdpr-cookie-types + p {
+  display: inline-block;
+}
+
+#gdpr-cookie-accept {
+  margin-left: 10px;
+}

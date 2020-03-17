@@ -19,14 +19,14 @@
     <meta property="og:description" content="Con i servizi di outsourcing Bludelego tagli i costi ed aumenti la produttività" />
     <meta property="og:url" content="https://bludelego.it/" />
     <meta property="og:site_name" content="Bludelego: Outsourcing e Offshoring - Your outsourcing Partner" />
-    <meta property="og:image" content="https://bludelego.it/wp-content/uploads/2018/10/home.png" />
-    <meta property="og:image:secure_url" content="https://bludelego.it/wp-content/uploads/2018/10/home.png" />
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/custom-assets/i/home.jpg" />
+    <meta property="og:image:secure_url" content="<?php echo get_template_directory_uri(); ?>/custom-assets/i/home.jpg" />
     <meta property="og:image:width" content="1450" />
     <meta property="og:image:height" content="750" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="Con i servizi di outsourcing Bludelego tagli i costi ed aumenti la produttività: soluzioni di Front Office, Customer care, Back Office, Web e Digital per la tua impresa" />
     <meta name="twitter:title" content="Bludelego Outsourcing Partner - Facciamo decollare la tua azienda!" />
-    <meta name="twitter:image" content="https://bludelego.it/wp-content/uploads/2018/10/home.png" />
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/custom-assets/i/home.jpg" />
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -440,9 +440,8 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/preparazione.jpg">
                     </div>
                 </div>
-                <h3 class="success__item-title title">Preparazione
-                    <div class="success__text">Selezioniamo e formiamo le risorse professionali più adatte alle tue esigenze e predisponiamo le infrastrutture tecnologiche e di comunicazione</div>
-                </h3>
+                <h3 class="success__item-title title">Preparazione </h3>
+                <div class="success__text">Selezioniamo e formiamo le risorse professionali più adatte alle tue esigenze e predisponiamo le infrastrutture tecnologiche e di comunicazione</div>
             </div>
             <div class="success__item">
                 <div class="success__img-wrap">
@@ -451,9 +450,8 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/svolgimento.jpg">
                     </div>
                 </div>
-                <h3 class="success__item-title title">Svolgimento
-                    <div class="success__text">Svolgiamo le attività previste dal progetto in stretto raccordo con il tuo personale, rendicontandoti giornalmente le ore svolte e i risultati raggiunti</div>
-                </h3>
+                <h3 class="success__item-title title">Svolgimento </h3>
+                <div class="success__text">Svolgiamo le attività previste dal progetto in stretto raccordo con il tuo personale, rendicontandoti giornalmente le ore svolte e i risultati raggiunti</div>
             </div>
             <div class="success__item">
                 <div class="success__img-wrap">
@@ -462,9 +460,8 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/flessibilita.jpg">
                     </div>
                 </div>
-                <h3 class="success__item-title title">Flessibilità
-                    <div class="success__text">Contattando il tuo referente, puoi aumentare o diminuire le ore di lavoro, cambiare gli orari e le attività, attivare l’opzione “soddisfatto o rimborsato” o richiedere qualsiasi altra variazione</div>
-                </h3>
+                <h3 class="success__item-title title">Flessibilità </h3>
+                <div class="success__text">Contattando il tuo referente, puoi aumentare o diminuire le ore di lavoro, cambiare gli orari e le attività, attivare l’opzione “soddisfatto o rimborsato” o richiedere qualsiasi altra variazione</div>
             </div>
         </div>
     </div>
@@ -488,7 +485,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <textarea name="messaggio" placeholder="Messagio*"></textarea>
+                <textarea name="messaggio" placeholder="Messaggio*"></textarea>
             </div>
             <div class="privacy">
                 <input class="checkbox" type="checkbox" name="check" id="check">
@@ -511,10 +508,10 @@
                 </a>
             </div>
             <div class="main-footer__socials-item">
-                <a href="#">+39 340 665 4100</a>
+                <a href="tel:+393406654100">+39 340 665 4100</a>
             </div>
             <div class="main-footer__socials-item">
-                <a href="#">info@bludelego.it</a>
+                <a href="mailto:info@bludelego.it">info@bludelego.it</a>
             </div>
         </div>
     </div>
@@ -540,16 +537,16 @@
                         <a href="https://bludelego.it/contatti/">Contatti</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/privacy-e-cookie-policy/">Privacy and cookies policy</a>
+                        <a href="https://bludelego.it/privacy-e-cookie-policy/">Informativa sulla privacy</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/soluzioni/frontoffice/">Front Office and Call Center</a>
+                        <a href="https://bludelego.it/soluzioni/frontoffice/">Frontoffice e Call Center</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/soluzioni/backoffice/">Back Office and Order Entry</a>
+                        <a href="https://bludelego.it/soluzioni/backoffice/">Backoffice e Order Entry</a>
                     </li>
                     <li>
-                        <a href="https://bludelego.it/soluzioni/web-digital-it/">Web and Digital</a>
+                        <a href="https://bludelego.it/soluzioni/web-digital-it/">Web e Digital</a>
                     </li>
                     <li>
                         <a href="https://bludelego.it/soluzioni/gestione-documentale/">Gestione Documentale</a>

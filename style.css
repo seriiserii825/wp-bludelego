@@ -3406,7 +3406,7 @@ div#rev_slider_15_1_wrapper {
 	margin: 0 auto;
 	background: #0a5898;
 	width: auto;
-	max-width: 960px !important;
+	max-width: 1010px !important;
 	/* padding: 0 104px; */
 	/* margin-left: 34.14%; */
 	position: absolute !important;
@@ -8260,8 +8260,14 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 
 .master-holder .bluper-right .quick-ecommerce-image img {
 	top: 50px;
-	right: -120px;
+	right: -160px;
 }
+@media screen and (max-width: 1440px) {
+	.master-holder .bluper-right .quick-ecommerce-image img {
+		right: -60;
+	}
+}
+
 
 .master-holder .easy-hr-offers {
 	margin-bottom: 34px;
@@ -9481,6 +9487,7 @@ body {
 .master-holder .bluper-section1 .section-title1 {
 	margin-bottom: 40px;
 	font-size: 68px;
+	line-height: 1;
 	font-weight: normal;
 	text-transform: none;
 	text-align: center;
@@ -9583,4 +9590,20 @@ div.wpcf7-mail-sent-ok {
 	color: #398f14;
 }
 
+.bluper-logo h1 {
+	margin-bottom: 60px;
+}
 
+@media screen and (max-width: 576px) {
+	.master-holder .quick-ecommerce-intro .bluper-page-title1 {
+		text-transform: none;
+	}
+	.bluper-logo h1 {
+		margin-bottom: 30px;
+	}
+
+	.bluper-advantages__wrap .bluper-advantages__item h2 {
+		padding: 0;
+		text-align: center;
+	}
+}

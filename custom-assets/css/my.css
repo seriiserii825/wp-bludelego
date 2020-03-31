@@ -1654,3 +1654,10 @@ label.error {
 #gdpr-cookie-accept {
   margin-left: 10px;
 }
+.download-btn {
+  display: block;
+  padding: 10px 15px;
+  color: red;
+  border: 1px solid red;
+}
+

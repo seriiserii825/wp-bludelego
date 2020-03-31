@@ -167,7 +167,7 @@ td#tab_coll-2 i.mk-icon-remove.gold {
 }
 
 td#tab_coll-2 i.mk-icon-remove.yellow {
-	color: #FFEB3B !important;
+	color: #ffeb3b !important;
 }
 
 td#tab_coll-1 i {
@@ -430,7 +430,7 @@ a.menu-item-link.js-smooth-scroll {
 
 #mk-header-1 .current_page_item .menu-item-link {
 	border: none !important;
-	color: #ffffff;
+	color: #fff;
 }
 
 #mk-header-1 .current_page_item .menu-item-link:hover {
@@ -1180,7 +1180,7 @@ div#harta {
 
 p.social_icon_c {
 	font-size: 21px;
-	color: #777777;
+	color: #777;
 	line-height: 2em;
 	display: flex;
 	justify-content: space-around;
@@ -3639,7 +3639,7 @@ div#rev_slider_15_1_wrapper {
 
 .single-portfolio #theme-page {
 	/*background-color: #f7f3f3;*/
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
 .portf_all .col-md-2:hover,
@@ -3693,7 +3693,7 @@ div#rev_slider_15_1_wrapper {
 
 .quoteblock-text .text_blue p {
 	font-family: 'Libre Franklin', sans-serif;
-	background: #1D71B6;
+	background: #1d71b6;
 	color: #fff;
 	line-height: 1.8;
 	font-size: 20px;
@@ -3706,7 +3706,7 @@ div#rev_slider_15_1_wrapper {
 	display: flex;
 	width: 40%;
 	padding: 60px;
-	background: #1D71B6;
+	background: #1d71b6;
 	color: #fff;
 	line-height: 1.8;
 	font-size: 20px;
@@ -5399,7 +5399,7 @@ h3.mk-box-icon-2-title {
 }
 
 .multicolor.pricing-table .pricing-cols .pricing-features ul li:nth-child(odd) {
-	background-color: #E2F6FF !important;
+	background-color: #e2f6ff !important;
 }
 
 .multicolor.pricing-table .pricing-cols .pricing-features ul li {
@@ -5441,12 +5441,12 @@ h3.mk-box-icon-2-title {
 }
 
 .pricing-table.multicolor.tabele_pretuti.no-pricing-offer ul.pricing-cols li.pricing-col:nth-child(1) .pricing-features ul li:nth-child(odd) {
-	background-color: #63C3FE !important;
+	background-color: #63c3fe !important;
 	color: #fff !important;
 }
 
 .pricing-table.multicolor.tabele_pretuti.no-pricing-offer ul.pricing-cols li.pricing-col:nth-child(1) .pricing-features ul li {
-	background-color: #3CB1FE !important;
+	background-color: #3cb1fe !important;
 	color: #fff !important;
 }
 
@@ -5550,11 +5550,11 @@ li.pricing-col.three-table {
 }
 
 .multicolor.pricing-table .pricing-cols .pricing-features ul li .mk-icon-remove.color_g {
-	color: #FFEB3B !important;
+	color: #ffeb3b !important;
 }
 
 .multicolor.pricing-table .pricing-cols .pricing-features ul li .mk-icon-remove.color_o {
-	color: #FFC107 !important
+	color: #ffc107 !important
 }
 
 li.pricing-col.three-table.featured-plan .pricing-heading {
@@ -8262,6 +8262,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	top: 50px;
 	right: -160px;
 }
+
 @media screen and (max-width: 1440px) {
 	.master-holder .bluper-right .quick-ecommerce-image img {
 		right: -60;
@@ -8282,12 +8283,12 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	font-weight: normal;
 	text-transform: none;
 	text-align: center;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .master-holder .easy-hr-offers h1 strong {
 	font-weight: bold;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .master-holder .easy-hr-offers ul {
@@ -8317,12 +8318,12 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	font-weight: normal;
 	text-transform: none;
 	text-align: center;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .master-holder .bluper-offers h1 strong {
 	font-weight: bold;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .master-holder .bluper-offers ul {
@@ -8349,12 +8350,12 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	font-size: 68px;
 	font-weight: normal;
 	text-transform: none;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .easy-hr-advantages__header #text-block-8 p strong,
 .easy-hr-advantages__header #text-block-7 p strong {
-	color: #006DB9;
+	color: #006db9;
 }
 
 .easy-hr-advantages__wrap {
@@ -8382,13 +8383,13 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .easy-hr-form-container {
 	/*margin-bottom: 96px;*/
 	padding-bottom: 90px;
-	background: linear-gradient(170deg, white 0%, white 50%, #9FE7FF 50%, #9FE7FF 100%);
+	background: linear-gradient(170deg, white 0%, white 50%, #9fe7ff 50%, #9fe7ff 100%);
 }
 
 .easy-hr-form-image {
@@ -8406,7 +8407,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 .easy-hr-form .easy-hr-form-wrap {
 	padding: 46px 50px 34px;
 	color: white;
-	background: #006DB9;
+	background: #006db9;
 }
 
 .easy-hr-form .easy-hr-form-wrap h3 {
@@ -8447,7 +8448,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	text-align: center;
 	height: 70px;
 	color: white;
-	background: #00AEFF;
+	background: #00aeff;
 	border: none;
 	transition: all .3s;
 }
@@ -8521,7 +8522,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	width: 15px;
 	height: 15px;
 	background: transparent;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #fff;
 }
 
 .easy-hr-form .easy-hr-form-wrap .privacy .wpcf7-list-item-label::after {
@@ -8559,7 +8560,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 .bluper-form-container {
 	/*margin-bottom: 96px;*/
 	padding-bottom: 90px;
-	background: linear-gradient(170deg, white 0%, white 50%, #9FE7FF 50%, #9FE7FF 100%);
+	background: linear-gradient(170deg, white 0%, white 50%, #9fe7ff 50%, #9fe7ff 100%);
 }
 
 .bluper-form-image {
@@ -8577,7 +8578,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 .bluper-form .bluper-form-wrap {
 	padding: 46px 50px 34px;
 	color: white;
-	background: #006DB9;
+	background: #006db9;
 }
 
 .bluper-form .bluper-form-wrap .form-title-1 {
@@ -8629,7 +8630,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	text-align: center;
 	height: 70px;
 	color: white;
-	background: #00AEFF;
+	background: #00aeff;
 	border: none;
 	transition: all .3s;
 }
@@ -8703,7 +8704,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	width: 15px;
 	height: 15px;
 	background: transparent;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #fff;
 }
 
 .bluper-form .bluper-form-wrap .privacy .wpcf7-list-item-label::after {
@@ -8928,7 +8929,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 		text-align: center;
 		font-size: 18px;
 		color: white;
-		background: #00AEFF;
+		background: #00aeff;
 		border-radius: 50px;
 	}
 
@@ -8942,7 +8943,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 		text-align: center;
 		font-size: 18px;
 		color: white;
-		background: #00AEFF;
+		background: #00aeff;
 		border-radius: 50px;
 	}
 
@@ -9021,7 +9022,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 
 	.easy-hr-form-container {
 		padding-bottom: 0;
-		background: #006DB9;
+		background: #006db9;
 	}
 
 	.easy-hr-form .easy-hr-form-image img {
@@ -9136,20 +9137,20 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	line-height: 150%;
 	text-transform: none;
 	text-align: right;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .emergency-form-container {
 	padding-bottom: 130px;
-	background: linear-gradient(170deg, white 0%, white 50%, #9FE7FF 50%, #9FE7FF 100%);
+	background: linear-gradient(170deg, white 0%, white 50%, #9fe7ff 50%, #9fe7ff 100%);
 }
 
 .blue-form .wpcf7 {
 	margin: 0 auto;
 	padding: 46px 50px;
 	max-width: 500px;
-	background: #006DB9;
-	border: 1px solid #0779A3;
+	background: #006db9;
+	border: 1px solid #0779a3;
 	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
 }
 
@@ -9319,7 +9320,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	width: 15px;
 	height: 15px;
 	background: transparent;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #fff;
 }
 
 .blue-form .wpcf7 .privacy .wpcf7-list-item-label::after {
@@ -9350,7 +9351,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	text-align: center;
 	height: 70px;
 	color: white;
-	background: #00AEFF;
+	background: #00aeff;
 	border: none;
 	transition: all .3s;
 }
@@ -9406,20 +9407,20 @@ body {
 	line-height: 47px;
 	text-align: center;
 	color: white;
-	background: #C90000;
+	background: #c90000;
 	transition: all .3s;
 }
 
 .btn-emergency:hover {
 	text-decoration: none;
-	color: #C90000;
+	color: #c90000;
 	background: white;
 }
 
 .btn-emergency:active,
 .btn-emergency:focus {
 	text-decoration: none;
-	color: #C90000;
+	color: #c90000;
 	background: white;
 }
 
@@ -9491,7 +9492,7 @@ body {
 	font-weight: normal;
 	text-transform: none;
 	text-align: center;
-	color: #006DB9;
+	color: #006db9;
 	font-family: Graphik-L;
 }
 
@@ -9503,7 +9504,7 @@ body {
 
 .master-holder .bluper-section1 h1 strong {
 	font-weight: bold;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .master-holder .bluper-section1 ul {
@@ -9524,7 +9525,7 @@ body {
 }
 
 .master-holder .bluper-section1 li strong {
-	color: #006DB9;
+	color: #006db9;
 	font-weight: 500;
 }
 
@@ -9539,12 +9540,12 @@ body {
 	font-size: 68px;
 	font-weight: normal;
 	text-transform: none;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .bluper-advantages__header #text-block-8 p strong,
 .bluper-advantages__header #text-block-7 p strong {
-	color: #006DB9;
+	color: #006db9;
 }
 
 .bluper-advantages__wrap {
@@ -9579,7 +9580,7 @@ body {
 	padding: 0px 70px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #006DB9;
+	color: #006db9;
 }
 
 .mk-header-nav-container {
@@ -9598,6 +9599,7 @@ div.wpcf7-mail-sent-ok {
 	.master-holder .quick-ecommerce-intro .bluper-page-title1 {
 		text-transform: none;
 	}
+
 	.bluper-logo h1 {
 		margin-bottom: 30px;
 	}
@@ -9606,4 +9608,21 @@ div.wpcf7-mail-sent-ok {
 		padding: 0;
 		text-align: center;
 	}
+}
+
+.download-btn:focus,
+.download-btn:visited,
+.download-btn {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: red;
+	border: 1px solid red;
+	transition: all .3s;
+}
+
+.download-btn:hover {
+	color: white;
+	background: red;
+	border-color: red;
 }

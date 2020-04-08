@@ -5733,7 +5733,9 @@ ul#menu-soluzioni li {
     width: 100%; */
 }
 
-ul#menu-soluzioni_en, ul#menu-soluzioni {
+ul#menu-soluzioni_en,
+ul#menu-soluzioni-ro,
+ul#menu-soluzioni {
 	/* max-width: 27.2%; */
 	display: flex;
 	justify-content: center;
@@ -8148,6 +8150,7 @@ ul#menu-new_menu li#menu-item-4335 a:hover {
 	background: #fff;
 }
 
+.page-id-5085 .mini,
 .page-id-4952 .mini,
 .page-id-4533 .mini,
 .page-id-4816 .mini,

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1268654-cd4e-46dc-bbac-68f6a555a932" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/custom-front-page-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,7 +70,8 @@
       <workItem from="1584965784094" duration="1246000" />
       <workItem from="1584970546152" duration="2402000" />
       <workItem from="1585646281970" duration="1085000" />
-      <workItem from="1586355159061" duration="1168000" />
+      <workItem from="1586355159061" duration="3222000" />
+      <workItem from="1586425774669" duration="1969000" />
     </task>
     <servers />
   </component>

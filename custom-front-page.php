@@ -144,7 +144,7 @@
 
                     <a class="link-ecommerce"
                        href="https://bludelego.it/soluzioni/quick-ecommerce-online-in-pochi-giorni">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/i/QE-50.jpg'; ?>" alt="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/i/qe2.svg'; ?>" alt="">
                     </a>
                 </a>
             </div>

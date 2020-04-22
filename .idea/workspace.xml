@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1268654-cd4e-46dc-bbac-68f6a555a932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/i/QE-50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-assets/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom-assets/css/my.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom-front-page.php" afterDir="false" />
-    </list>
+    <list default="true" id="b1268654-cd4e-46dc-bbac-68f6a555a932" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +68,7 @@
       <workItem from="1585646281970" duration="1085000" />
       <workItem from="1586355159061" duration="3222000" />
       <workItem from="1586425774669" duration="2192000" />
-      <workItem from="1587565787533" duration="613000" />
+      <workItem from="1587565787533" duration="746000" />
     </task>
     <servers />
   </component>

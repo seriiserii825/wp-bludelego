@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1268654-cd4e-46dc-bbac-68f6a555a932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/custom-front-page-ro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/i/QE-50.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-assets/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom-assets/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom-front-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,8 @@
       <workItem from="1584970546152" duration="2402000" />
       <workItem from="1585646281970" duration="1085000" />
       <workItem from="1586355159061" duration="3222000" />
-      <workItem from="1586425774669" duration="1969000" />
+      <workItem from="1586425774669" duration="2192000" />
+      <workItem from="1587565787533" duration="613000" />
     </task>
     <servers />
   </component>
@@ -97,9 +99,9 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="702" y="189" width="336" height="553" key="ftp.server.browser/0.25.1600.875@0.25.1600.875" timestamp="1584960317061" />
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1584961151505">
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1587566070265">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1584961151505" />
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1587566070265" />
   </component>
 </project>

@@ -141,6 +141,11 @@
                     <div class="download-button__image">
                         <img src="<?php echo get_template_directory_uri(); ?>/custom-assets/i/download.png" alt="">
                     </div>
+
+                    <a class="link-ecommerce"
+                       href="https://bludelego.it/soluzioni/quick-ecommerce-online-in-pochi-giorni">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/i/QE-50.jpg'; ?>" alt="">
+                    </a>
                 </a>
             </div>
         </div>

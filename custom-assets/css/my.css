@@ -1661,3 +1661,13 @@ label.error {
   border: 1px solid red;
 }
 
+.link-ecommerce {
+  display: block;
+  margin-top: 60px;
+  width: 400px;
+}
+@media screen and (max-width: 450px) {
+  .link-ecommerce {
+    width: 100%;
+	}
+}
